@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1b1b32;
+}   
+header{
+    background-color: rgba(24, 23, 23, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    transition: .2s;
+}
+header:hover{
+    background-color: black;
+}
+.my-container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1300px;
+    
+    margin: 0 auto;
+    padding: 1em 0em;
+}
+
+nav ul{
+    display: flex;
+  
+    margin: .355em 0;
+}
+nav li{
+    list-style: none;
+    padding: 0 2em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: .1s;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(73, 232, 179);
+    font-weight: 600; 
+}
+nav a:hover{
+    border-bottom: 4px solid rgb(23, 207, 146);
+}
+#welcome-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-image{
+  height: 100vh;
+  margin: 2em 2.45em;
+  transition: transform 2s ;
+  border-radius: 40%;
+  animation: updown 10s linear infinite ;
+}
+#right-image:hover,
+#right-image:focus{
+    background-color: rgba(68, 196, 136, 0.8);
+    transform: translateY(-20px);
+}
+.img-container{
+    transition: .5s;
+    z-index: 1;
+}
+.img-container:hover{
+    background-color: rgba(66, 199, 199, 0.6);
+    border-radius: 40%;
+}
+.container-1{
+    display: block;
+    margin: 0 3em;
+}
+#first-h{
+    letter-spacing: .11em;
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Tektur', cursive;
+    
+}
+   
+#first-p{
+    color: #fff;
+    font-family: 'Tektur', cursive;
+    font-size: 22px;
+    margin: 1em 0;
+    letter-spacing: .10em;
+}
+#title-2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 5em 0 0 0;
+}
+.project-title{
+    width: 95%;
+    margin: 5em auto;
+   
+}
+
+.project-tile{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 3em;
+   margin: 1em 0;
+   justify-content: center;
+}
+.size{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(41, 33, 33);
+    border-radius: 10px;
+    transition: transform 1s;
+   
+}
+.size:hover,
+.size:focus-visible {
+    transform: translateY(-20px);
+    background-color: rgb(23, 207, 146);
+}
+
+
+.icon{
+    width: 80px;
+    height: 80px;
+    margin: 6em 6.55em;
+}
+#icon-3{
+    height: 100px;
+    margin: 4.5em 6.55em;
+    width: 90px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+button{
+    width: 100px;
+   
+    background-color: red;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+.aa-1{
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+.con-3{
+    width: 200px;
+    height: 40px;
+    background-color: #1b1b32 ;
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+    animation: change-col 5s infinite;
+}
+@keyframes change-col{
+    0%{
+        background-color: #1b1b32;
+    }
+    20%{
+        background-color: rgb(23, 207, 146);
+    }
+    40%{
+        background-color: rgb(241, 62, 62);
+    }
+    50%{
+        background-color: #dd6b01;
+    }
+    100%{
+        background-color: #09097d;
+    }
+}
+.container-2{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+    display: flex;
+    gap: 2em;
+}
+.img-container2{
+    width: 400px;
+    height: 400px;
+}
+#title-3, #title-4{
+    color: #fff;
+    text-align: center;
+    margin: 6em 0 1em 0;
+    
+}
+.img-2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px ;
+    transition: transform .3s linear;
+    
+}
+.img-2:hover{
+    transform: scale(1.1);
+}
+
+.container-3{
+    width: 900px;
+    justify-content: center;
+    display: flex;
+    margin: 2em auto;
+    align-items: center;
+    
+}
+#img-3{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+    margin: 9.55em 1em 2em 1.25em ;
+    
+}
+.icon-4, .icon-5, .icon-6{
+    width: 30px;
+    
+}
+.in-1, .in-2, .in-3, .in-4, .in-5{
+    display: flex;
+    margin: 1em 0;
+    
+}
+.p-text{
+    color: white;
+    vertical-align: middle;
+    margin: .255em .555em;
+    text-decoration: none;
+}
+#hover-1:hover,
+#hover-2:hover,
+#hover-3:hover{
+    color: rgb(23, 207, 146);
+}
+.about-container{
+    width: 100%;
+    
+    background: rgb(75, 72, 72);
+    height: 100px;
+    margin: 3em auto 0 auto;
+    color: white;
+    text-align: center;
+    padding: 1.25em 2em;
+}
+#last-p{
+    font-size: 19px;
+    color: #fff;
+}
+@media only screen and (min-width: 420px) and (max-width: 620px){
+    header{
+        position: static;
+    }
+    .my-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        display: none;
+    }
+    nav ul{
+        flex-direction: column ;
+    }
+    nav li{
+        margin: .355em 0;
+    }
+    #welcome-section{
+        flex-direction: column;
+    }
+    #right-image{
+        height: 70vh;
+        margin: 0;
+    }
+    #first-h{ 
+    color: #fff;
+    font-size: 26px;
+    margin: 1em 0;
+    font-family: 'Tektur', cursive;
+    }
+    #first-p{
+        color: #fff;
+        font-family: 'Tektur', cursive;
+        font-size: 15px;
+        text-align: justify;
+        letter-spacing: normal; 
+        margin: 0 0 2em 0;
+    }
+    .project-tile{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 3em;
+        margin: 1em 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .container-3{
+        width: 400px;
+       
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2em auto;
+        align-items: center;
+    }
+    #img-3{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 2em 0;
+        align-items: center;
+    }
+    .icon-4{
+        width: 25px;
+        
+    }
+    .p-text{
+        color: white;
+        vertical-align: middle;
+        margin: .255em .555em;
+        text-decoration: none;    
+    }
+    .about-container{
+        width: 100%;
+        
+        background: rgb(75, 72, 72);
+        height: auto;
+        margin: 3em auto 0 auto;
+        color: white;
+        text-align: center;
+        padding: 1.25em 2em;
+    }
+    #last-p{
+        font-size: 19px;
+        color: #fff;
+        line-height: 1.50em;
+        word-spacing: .255em;
+       
+    }
+    .icon-5{
+        height: 20px;
+        width: 20px;
+    }
+}
